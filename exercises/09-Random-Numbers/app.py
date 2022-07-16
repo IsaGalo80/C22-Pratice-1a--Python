@@ -1,8 +1,8 @@
 import random
 
-def get_randomInt(1,10):
-  # CHANGE ONLY THIS LINE BELOW
-	random_number = random.random()
+def get_randomInt():
+    # CHANGE ONLY THIS LINE BELOW
+	random_number = random.random(1,10)
 	return random_number
 
 

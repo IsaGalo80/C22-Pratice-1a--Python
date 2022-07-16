@@ -5,14 +5,13 @@ if user_input <= 50:
 
 print('Your wedding will cost '+str(price)+' dollars')
 
-if price <50  : 
-    print('El costo es de $4000')
-elif price <100 :
-    print('El costo será de 10 000')
-elif price <200 :
-    print('El costo será de 15 000')
-elif price >200:
-    print('El costo será de 20 000')
+if user_input <= 50:
+    price = 4000
+elif user_input <= 100:
+    price = 10000
+elif user_input <= 200:
+    price = 15000
 else:
-    print ('')
+    price = 20000
+
 

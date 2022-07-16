@@ -1,3 +1,4 @@
 import random
-
-# your code here
+def generate_random ():  
+   variable=random.randint(0, 9)
+   return variable

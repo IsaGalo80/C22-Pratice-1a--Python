@@ -2,6 +2,8 @@ import random
 
 def get_randomInt():
 	# Your code here
-	return None
 
-print(get_randomInt())
+   	variable= random.randrange(1, 13)
+   	return variable
+   	print(get_randomInt())
+
